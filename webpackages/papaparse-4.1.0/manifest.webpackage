@@ -1,0 +1,40 @@
+{
+    "name": "papaparse-4.1.0",
+    "groupId": "",
+    "version": "1.1.0",
+    "modelVersion": "9.1.0",
+    "docType": "webpackage",
+    "author": {
+        "name": "Judit Ross",
+        "email": "judit.ross@incowia.com"
+    },
+    "homepage": "http://papaparse.com",
+    "license": "MIT",
+    "keywords": [
+        "library",
+        "papaparse",
+        "3rd-party"
+    ],
+    "man": [],
+    "runnables": [],
+    "artifacts": {
+        "utilities": [
+            {
+                "artifactId": "papaparse",
+                "description": "Wrapper for the Powerful CSV parser that converts CSV to JSON and JSON to CSV. Supports web workers and streaming large files. Gracefully handles malformed input, version 4.1.0",
+                "resources": [
+                    {
+                        "dev": "vendor/papaparse.html",
+                        "prod": "vendor/papaparse.min.html"
+                    }
+                ],
+                "dependencies": [
+                    {
+                        "webpackageId": "jquery-1.11.1@1.1.0",
+                        "artifactId": "jquery"
+                    }
+                ]
+            }
+        ]
+    }
+}
