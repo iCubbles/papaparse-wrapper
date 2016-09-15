@@ -1,4 +1,12 @@
 ## papaparse-wrapper
 
 <hr/>
-Note This page is generated based on the markdown-syntax. For details see <http://daringfireball.net/projects/markdown/syntax/>
+Papaparse wrapper for usage in cubbles.
+
+***
+
+Origin Library:
+
+>Papa Parse: The powerful, in-browser CSV parser for big boys and girls
+
+See: [papaparse](http://papaparse.com/)
